@@ -1,3 +1,6 @@
+*{
+    font-weight: 400!important;
+}
 .full-page-height{
     min-height: 100vh;
     height: 100vh;
@@ -65,7 +68,7 @@
 }
 
 .knoss-about-logo{
-    border-radius: 8px;
+    border-radius: 2px;
 }
 
 .cooperation-logo{
@@ -148,7 +151,7 @@
 
 /* Sroll above section to avoid header overlay */
 #about:before{
-    padding-top:70px;display:block;content:"";
+    padding-top:7git0px;display:block;content:"";
 }
 
 #services:before{
@@ -179,6 +182,10 @@
 
 .image-modal{
     background-size: cover;
+}
+
+.modal-body{
+    padding: 0 0 0.5rem 0!important;
 }
 
 .modal-body img{
@@ -268,3 +275,47 @@
     }
 
 }
+
+.font-italic{
+    font-style: italic!important;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #2c4444;
+    
+}
+
+#cooperation > h2{
+    margin-bottom: 0!important;
+}
+
+.main-leading{
+    line-height: 1.05!important;
+}
+
+.h-88{
+    height: 88%;
+}
+
+.hh-92{
+    height: 92vh;
+}
+
+.services-to-offer p{
+    font-size: 1.2rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+}
+
+.services-button{
+    width: 200px;
+}
+
+.services-button > p{
+    margin: 0 0 0 0.25rem!important;
+}
+

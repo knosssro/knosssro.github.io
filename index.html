@@ -40,9 +40,9 @@
 
   <!-- Navbar -->
   <div class="container-fluid smart-scroll header-container scrolled-up">
-  <header class="d-flex flex-wrap justify-content-center pxh-5 mxh-4 py-3 ">
+  <header class="d-flex flex-wrap justify-content-center mxh-4 py-3 px-5">
     <a href="/" class="d-flex me-md-auto text-dark text-decoration-none">
-      <img src="static/images/logo_biele_transparent.png" alt="knoss-logo" class="bi me-2" width="96" height="96">
+      <img src="static/images/logo_biele_transparent.png" alt="knoss-logo" class="bi me-2" width="104" height="104">
     </a>
 
     <ul class="nav nav-pills align-items-center">
@@ -56,40 +56,51 @@
 </div>
 
   <!-- Lobby -->
-  <div class="container-fluid col-xxl-12 full-page-height flex-column pxhplus-5 cover py-5" id="home" style="background-image: url('static/images/pexels-max-vakhtbovych-7031412 (1).png');">
-    <div class="row pxh-5 pt-5 h-100 align-items-center">
-    <div class="pt-eight-rem text-white">
-      <h1 class="fw-bold text-shadow">Knoss</h1>
-      <h1 class="display-4 pb-3 pt-2 fw-bold text-shadow">Stavebná firma s pevnými základmi</h1>
-      <ul class="lead text-shadow">
-        <li><p class="p-0 m-0">Záruka kvality</p></li>
-        <li><p class="p-0 m-0">Skúsení remeselníci</p></li>
-        <li><p class="p-0 m-0">Stovky spokojných zákazníkov</p></li>
-        <li><p class="p-0 m-0">1000+  úspešných realizácii</p></li>
-    </ul>
-        <a href="#about" class="btn btn-lg fw-bold knoss-bg-dark text-white mt-3">O nás</a>
+  <div class="container-fluid col-xxl-12 hh-92 flex-column pxhplus-5 cover py-5 px-5" id="home" style="background-image: url('static/images/pexels-max-vakhtbovych-7031412 (1).png');">
+    <div class="col-6 pxh-5 pt-5 h-88 d-flex align-items-end">
+    <div class="text-white">
+      <h1 class="display-1 pb-3 pt-2 fw-bold text-shadow main-leading">Stavebná firma s pevnými základmi</h1>
+        <a href="#services" class="btn btn-lg fw-bold knoss-bg-dark text-white mt-3 d-flex services-button justify-content-center align-items-center">
+          <p>Naše služby</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+          </svg>
+        </a>
       </p>
     </div>
   </div>
   </div>
 
-  <!-- Reasons
-  <div class="container-fluid col-xxl-12 py-3 px-5 mt-5 border-top border-bottom">
+  <!-- Reasons -->
+  <div class="container-fluid col-xxl-12 py-3 px-5 border-bottom" id="reasons">
     <div class="row py-3 row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-center align-items-center px-5">
       <div class="feature col">
-        <h3 class="text-muted py-3">Záruka kvality</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" fill="currentColor" class="bi bi-patch-check" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+          <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z"/>
+        </svg>
+        <h3 class="text-muted py-3 text-center">Záruka kvality</h3>
       </div>
       <div class="feature col">
-        <h3 class="text-muted py-3">Skúsení remeselníci</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
+          <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
+        </svg>
+        <h3 class="text-muted py-3 text-center">Skúsení remeselníci</h3>
       </div>
       <div class="feature col">
-        <h3 class="text-muted py-3">Stovky spokojných zákazníkov</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+          <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+        </svg>
+        <h3 class="text-muted py-3 text-center">Stovky spokojných zákazníkov</h3>
       </div>
       <div class="feature col">
-        <h3 class="text-muted py-3">1000+  úspešných realizácii</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+          <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+        </svg>
+        <h3 class="text-muted py-3 text-center">1000+  úspešných realizácii</h3>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <!-- About us -->
   <div class="container col-xxl-12 px-4 py-5 border-bottom" id="about">
@@ -102,76 +113,65 @@
         <p class="lead text-justify">Vitajte na webových stránkach stavebnej spoločnosti Knoss s.r.o., ktorá je stabilným a spoľahlivým partnerom vašich stavieb už od roku 1993.</p>
         <p class="lead text-justify">Naša spoločnosť bola založená Ladislavom Klímom a Antonom Nemcom, absolventmi SPŠ stavebnej, ktorí spoločnosť vedú a riadia od jej vzniku až do súčasnosti. Služby v oblasti stavebníctva poskytujeme primárne v regióne Záhoria, Bratislavy a okolia.</p>
         <p class="lead text-justify">Okrem kompletného servisu pre vašu stavbu sa špecializujeme aj na dodanie a montáž plastových alebo hliníkových okien a dverí od kvalitných slovenských výrobcov. </p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start my-5">
-          <a type="button" href="#services" class="btn knoss-bg-dark btn-lg px-4 me-md-2 text-white">Služby</a>
-        </div>
       </div>
     </div>
   </div>
 
     <!-- Services -->
-    <div id="services" class="container col-xxl-12 px-4 py-5 border-bottom">
+    <div id="services" class="container col-xxl-12 px-5 py-5 border-bottom">
       <h1 class="display-5 py-1 fw-bold text-center">Ponúkané služby</h1>
-      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-4">
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg bg-gradient">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h4 class="pt-1 mb-4 lh-1 no-decoration text-start">Stavba domu na kľúč - od projektu, cez realizáciu až po finálne odovzdanie zákazníkovi</h4>
+      <!-- <div class="list-group services-to-offer d-flex g-4 justify-content-center align-items-center">
+        <p class="px-3 py-2">Stavba domu na kľúč - od projektu, cez realizáciu až po finálne odovzdanie zákazníkovi</p>
+        <p class="px-3 py-2">Rekonštrukcie bytov, domov a bytových domov</p>
+        <p class="px-3 py-2">Zatepľovanie fasád</p>
+        <p class="px-3 py-2">Zhotovenie oplotení, chodníkov, parkovísk a ciest</p>
+        <p class="px-3 py-2">Realizácia inžinierskych sietí a domových prípojok</p>
+        <p class="px-3 py-2">Dodanie stavebného materiálu</p>
+        <p class="px-3 py-2">Revitalizácia verejných priestranstiev</p>
+        <p class="px-3 py-2">Dodávka a certifikovaná  montáž plastových alebo hliníkových okien a dverí – <a class="no-decoration fw-bold knoss-dark" href="https://www.noves.sk">Noves</a></li>
+      </div> -->
+      <div class="row flex-column g-4 py-4">
+          <div class="text-white rounded-1 shadow-lg bg-gradient">
+            <div class="pt-3 pb-1 text-white text-shadow-1">
+              <h4 class="no-decoration text-start">Stavba domu na kľúč - od projektu, cez realizáciu až po finálne odovzdanie zákazníkovi</h4>
             </div>
+        </div>
+          <div class="text-white rounded-1 shadow-lg bg-gradient">
+            <div class="px-5 pt-3 pb-1 text-white text-shadow-1">
+              <h4 class="no-decoration text-start">Rekonštrukcie bytov, domov a bytových domov</h4>
+            </div>
+        </div>
+          <div class="text-white rounded-1 shadow-lg bg-gradient">
+            <div class="px-5 pt-3 pb-1 text-white text-shadow-1">
+              <h4 class="no-decoration text-start">Zatepľovanie fasád</h4>
+            </div>
+        </div>
+          <div class="text-white rounded-1 shadow-lg bg-gradient">
+            <div class="px-5 pt-3 pb-1 text-white text-shadow-1">
+              <h4 class="no-decoration text-start">Zhotovenie oplotení, chodníkov, parkovísk a ciest</h4>
+            </div>
+        </div>
+        <div class="text-white rounded-1 shadow-lg bg-gradient">
+          <div class="px-5 pt-3 pb-1 text-white text-shadow-1">
+            <h4 class="no-decoration text-start">Dodanie stavebného materiálu</h4>
           </div>
+        </div>
+          <div class="text-white rounded-1 shadow-lg bg-gradient">
+            <div class="px-5 pt-3 pb-1 text-white text-shadow-1">
+              <h4 class="no-decoration text-start">Realizácia inžinierskych sietí a domových prípojok</h4>
+            </div>
+        </div>
+          <div class="text-white rounded-1 shadow-lg bg-gradient">
+            <div class="px-5 pt-3 pb-1 text-white text-shadow-1">
+              <h4 class="no-decoration text-start">Stavba domu na kľúč - od projektu, cez realizáciu až po finálne odovzdanie zákazníkovi</h4>
+            </div>
+        </div>
+          <div class="text-white rounded-1 shadow-lg bg-gradient">
+            <div class="px-5 pt-3 pb-1 text-white text-shadow-1">
+              <h4 class="no-decoration text-start">Dodávka a certifikovaná  montáž plastových alebo hliníkových okien a dverí – <a class="no-decoration fw-bold white-h" href="https://www.noves.sk">Noves</a></h4>
+            </div>
         </div>
   
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg bg-gradient">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h4 class="pt-1 mb-4 lh-1 no-decoration text-start">Rekonštrukcie bytov, domov a bytových domov</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg bg-gradient">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h4 class="pt-1 mb-4 lh-1 no-decoration text-start">Zatepľovanie fasád</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg bg-gradient">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h4 class="pt-1 mb-4 lh-1 no-decoration text-start">Zhotovenie oplotení, chodníkov, parkovísk a ciest</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg bg-gradient">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h4 class="pt-1 mb-4 lh-1 no-decoration text-start">Realizácia inžinierskych sietí a domových prípojok </h4>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg bg-gradient">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h4 class="pt-1 mb-4 lh-1 no-decoration text-start">Dodanie stavebného materiálu</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg bg-gradient">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h4 class="pt-1 mb-4 lh-1 no-decoration text-start">Revitalizácia verejných priestranstiev</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg bg-gradient">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h4 class="pt-1 mb-4 lh-1 no-decoration text-start">Dodávka a certifikovaná  montáž plastových alebo hliníkových okien a dverí – <a class="no-decoration fw-bold white-h" href="https://www.noves.sk">Noves</a></h4>
-            </div>
-          </div>
-        </div>
         
     </div>
     <div class="col-xxl-12 mx-auto">
@@ -189,7 +189,7 @@
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div class="col">
           <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i03">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg py-3" style="background-image: url('static/photos/03-min.png');">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/03-min.png');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
               <ul class="d-flex list-unstyled mt-auto"><li class="me-auto"></li></ul>
@@ -212,7 +212,7 @@
         <!-- 02 -->
         <div class="col">
           <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i08">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg py-3" style="background-image: url('static/photos/08.png');">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/08.png');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
               <ul class="d-flex list-unstyled mt-auto"><li class="me-auto"></li></ul>
@@ -235,7 +235,7 @@
       <!-- 03 -->
         <div class="col">
           <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i14">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg py-3" style="background-image: url('static/photos/14.jpg');">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/14.jpg');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
               <ul class="d-flex list-unstyled mt-auto"><li class="me-auto"></li></ul>
@@ -258,7 +258,7 @@
         <!-- 04 -->
         <div class="col">
           <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i15">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg py-3" style="background-image: url('static/photos/15.jpg');">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/15.jpg');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
               <ul class="d-flex list-unstyled mt-auto"><li class="me-auto"></li></ul>
@@ -281,7 +281,7 @@
         <!-- 05 -->
         <div class="col">
           <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i04">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg py-3" style="background-image: url('static/photos/04.jpg');">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/04.jpg');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
               <ul class="d-flex list-unstyled mt-auto"><li class="me-auto"></li></ul>
@@ -304,7 +304,7 @@
         <!-- 06 -->
         <div class="col">
           <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i12">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg py-3" style="background-image: url('static/photos/12.jpg');">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/12.jpg');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
               <ul class="d-flex list-unstyled mt-auto"><li class="me-auto"></li></ul>
@@ -327,7 +327,7 @@
         <!-- 07 -->
         <div class="col">
           <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i07">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg py-3" style="background-image: url('static/photos/07.jpg');">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/07.jpg');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
               <ul class="d-flex list-unstyled mt-auto"><li class="me-auto"></li></ul>
@@ -350,7 +350,7 @@
         <!-- 08 -->
         <div class="col">
           <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i13">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg py-3" style="background-image: url('static/photos/13.jpg');">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/13.jpg');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
               <ul class="d-flex list-unstyled mt-auto"><li class="me-auto"></li></ul>
@@ -373,7 +373,7 @@
         <!-- 09 -->
         <div class="col">
           <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i05">
-          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg py-3" style="background-image: url('static/photos/05.jpg');">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/05.jpg');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
               <ul class="d-flex list-unstyled mt-auto"><li class="me-auto"></li></ul>
@@ -399,21 +399,21 @@
     <div class="container col-xxl-12 px-4 pt-5 border-bottom">
       <h2 class="display-5 fw-bold text-center">Referencie</h2>
       <div class="row g-4 py-3 row-cols-1 row-cols-md-2 row-cols-lg-4">
-        <div class="feature col">
-          <h3 class="text-muted py-3">Pl. Peter starostka</h3>
-          <p>S vykonanou prácou firmy Knoss sme boli v našej obci vždy spokojní, preto sa na nich obraciame opakovane</p>
+        <div class="feature col justify-content-between">
+          <p class="font-italic">„S vykonanou prácou firmy Knoss sme boli v našej obci vždy spokojní, preto sa na nich obraciame opakovane.“</p>
+          <p class="text-muted pb-3 text-center">Pl. Peter starostka</p>
         </div>
-        <div class="feature col">
-          <h3 class="text-muted py-3">Noves</h3>
-          <p>Firma Knoss pre nás predstavuje férového a spoľahlivého partnera</p>
+        <div class="feature col justify-content-between">
+          <p class="font-italic">„S Knossom mám len dobré skúsenosti, jej pracovníci na mojom dome vždy odviedli kvalitnú a poctivú prácu.“</p>
+          <p class="text-muted pb-3 text-center">Kamil</p>
         </div>
-        <div class="feature col">
-          <h3 class="text-muted py-3">Penati golf</h3>
-          <p>Spolupráca s firmou Knoss je plynulá a bezproblémová</p>
+        <div class="feature col justify-content-between">
+          <p class="font-italic">„Firma Knoss pre nás predstavuje férového a spoľahlivého partnera.“</p>
+          <p class="text-muted pb-3 text-center">Noves</p>
         </div>
-        <div class="feature col">
-          <h3 class="text-muted py-3">Peter</h3>
-          <p>S Knossom mám len dobré skúsenosti, jej pracovníci na mojom dome vždy odviedli kvalitnú a poctivú prácu</p>
+        <div class="feature col justify-content-between">
+          <p class="font-italic">„Spolupráca s firmou Knoss je plynulá a bezproblémová.“</p>
+          <p class="text-muted pb-3 text-center">Penati golf</p>
         </div>
     </div>
     </div>
@@ -421,7 +421,7 @@
       <!-- References -->
       <div class="container col-xxl-12 px-4 border-bottom pt-5" id="cooperation">
         <h2 class="display-5 fw-bold text-center">Naši partneri</h2>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 py-5 align-items-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 py-4 align-items-center justify-content-center">
           <a class="col d-flex align-items-start cooperation-logo justify-content-center" href="https://www.moderna.sk">
             <img src="static/logos/moderna_blue.svg" alt="moderna" class="bi me-2" width="140">
           </a>
@@ -445,7 +445,7 @@
       <div class="row flex-lg-row g-5 justify-content-center">
         <h1 class="display-5 fw-bold lh-1 pt-5">Kontakt</h1>
         <p class="lead text-justify">
-          V prípade záujmu o naše služby nás neváhajte kontaktovať
+          V prípade záujmu o naše služby nás neváhajte kontaktovať:
         </p>
         <div class="col-12 col-lg-6 col-md-6 pt-0 mt-3 my-2">
           <div class="contact-box rounded-5 p-3">
@@ -459,12 +459,12 @@
               </a></h4>
           </div>
           <div class="contact-row">
-              <h4 class="mb-2"><a href="tel:+421 0905 525 096" class="d-flex align-items-center no-decoration py-1 tr-2">
+              <h4 class="mb-2"><a href="tel:+421 905 525 096" class="d-flex align-items-center no-decoration py-1 tr-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"fill="currentColor" class="bi bi-phone text-muted" viewBox="0 0 16 16">
                   <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"></path>
                   <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
                 </svg>
-              <p class="m-0 px-3 knoss-dark fw-bold tr-2">+421 0905 525 096</p>
+              <p class="m-0 px-3 knoss-dark fw-bold tr-2">0905 525 096</p>
             </a></h4>
           </div>
       </div>
@@ -481,12 +481,12 @@
             </a></h4>
         </div>
         <div class="contact-row">
-            <h4 class="mb-2"><a href="tel:+421 0905 458 837" class="d-flex align-items-center no-decoration py-1">
+            <h4 class="mb-2"><a href="tel:+421 905 458 837" class="d-flex align-items-center no-decoration py-1">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"fill="currentColor" class="bi bi-phone text-muted" viewBox="0 0 16 16">
                 <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"></path>
                 <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
               </svg>
-            <p class="m-0 px-3 knoss-dark fw-bold tr-2">+421 0905 458 837</p>
+            <p class="m-0 px-3 knoss-dark fw-bold tr-2">0905 458 837</p>
           </a></h4>
         </div>
     </div>
@@ -549,8 +549,8 @@ $(window).on('scroll', function() {
     header_icon_element = $('.smart-scroll header a img');
 
     if(scroll_top == 0) {
-      header_icon_element.css('height', '96px');
-      header_icon_element.css('width', '96px');
+      header_icon_element.css('height', '104px');
+      header_icon_element.css('width', '104px');
       header_icon_element.css('transition', '0.3s');
       scroll_to_element.css('background-color', 'transparent');
       scroll_to_element.css('-webkit-backdrop-filter', 'none');
