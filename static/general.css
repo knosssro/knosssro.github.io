@@ -271,7 +271,8 @@
     }
 
     .py-5{
-        padding-top: 1.5rem!important;
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
     }
 
 }
@@ -305,10 +306,13 @@
     height: 92vh;
 }
 
-.services-to-offer p{
+.services-to-offer div p{
     font-size: 1.2rem;
-    padding-top:0.5rem;
-    padding-bottom:0.5rem;
+    height: 85px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
 }
 
 .services-button{
@@ -318,4 +322,13 @@
 .services-button > p{
     margin: 0 0 0 0.25rem!important;
 }
+
+.pl-0{
+    padding-left: 0!important;
+}
+
+.pr-0{
+    padding-right: 0!important;
+}
+
 
