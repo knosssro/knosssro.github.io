@@ -213,6 +213,14 @@
         padding-top: 0!important;
         padding-bottom: 0!important;
     }
+
+    footer > p{
+        text-align: left!important;
+    }
+
+    footer >ul{
+        justify-content: flex-end!important;
+    }
 }
 
 @media (min-width: 768px){
@@ -238,9 +246,26 @@
         padding-bottom: 1rem!important;
     }
 
+    footer > p{
+        text-align: center;
+    }
+
+    footer >ul{
+        justify-content: center;
+    }
+
     
 }
 
+@media (max-width: 768px){
+header.py-3{
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+    padding-bottom: 0!important;
+    padding-top: 0.5rem!important;
+
+}
+}
 @media (max-width: 576px){
     footer .nav{
         justify-content: center!important;
@@ -287,8 +312,8 @@
 
 
     .px-5{
-        padding-left: 0!important;
-        padding-right: 0!important;
+        padding-left: 0.5rem!important;
+        padding-right: 0.5rem!important;
     }
 
     .cooperation-logo{
@@ -306,8 +331,14 @@
         justify-content: center!important;
         align-items: center!important;
     }
-    
 
+    footer > p{
+        text-align: center!important;
+    }
+
+    footer >ul{
+        justify-content: center!important;
+    }
 }
 
 @media screen and (max-height: 750px )
@@ -315,6 +346,34 @@
     .main-leading{
         font-size: 4rem!important;
         width: 60vw!important;
+    }
+}
+
+@media screen and (max-height: 750px )
+                and (min-width: 1000px ){
+    .main-leading{
+        font-size: 4rem!important;
+        width: 60vw!important;
+    }
+}
+
+@media screen and (max-height: 550px )
+                and (min-width: 500px ){
+
+    #home{
+        padding-bottom: 0!important;
+    }
+    #home > div{
+        height: 100%!important;
+    }              
+
+    .m-leading-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-leading{
+        font-size: 3rem!important;
+        width: 80vw!important;
     }
 }
 
