@@ -207,6 +207,7 @@
     padding-right: 3rem;
 }
 
+
 @media (min-width: 992px){
     #about div {
         padding-top: 0!important;
@@ -275,6 +276,46 @@
         padding-bottom: 1rem!important;
     }
 
+    .main-leading{
+        text-align: center!important;
+        line-height: 1.2rem!important;
+        font-size: 3rem!important;
+    }
+    .feature{
+        text-align: center!important;
+    }
+
+
+    .px-5{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+
+    .cooperation-logo{
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+    }
+
+    h2, h1{
+        text-align: center!important;
+    }
+
+    .m-leading-wrapper{
+        display: flex!important;
+        flex-direction: column!important;
+        justify-content: center!important;
+        align-items: center!important;
+    }
+    
+
+}
+
+@media screen and (max-height: 750px )
+                and (min-width: 1000px ){
+    .main-leading{
+        font-size: 4rem!important;
+        width: 60vw!important;
+    }
 }
 
 .font-italic{
@@ -306,19 +347,19 @@
     height: 92vh;
 }
 
-.services-to-offer div p{
+.services-to-offer > div > p{
+    min-height: 85px;
     font-size: 1.2rem;
-    height: 85px;
     text-align: center;
     display: flex;
+    justify-content: center;
     align-items: center;
-    
+    padding: 0.5rem;
 }
 
 .services-button{
-    width: 200px;
+    width: 200px!important;
 }
-
 .services-button > p{
     margin: 0 0 0 0.25rem!important;
 }
@@ -331,4 +372,6 @@
     padding-right: 0!important;
 }
 
-
+.pt-h{
+    padding-top: 164px!important;
+}
