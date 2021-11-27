@@ -151,11 +151,11 @@
 
 /* Sroll above section to avoid header overlay */
 #about:before{
-    padding-top:7git0px;display:block;content:"";
+    padding-top:70px;display:block;content:"";
 }
 
 #services:before{
-    padding-top:70px;display:block;content:"";
+    padding-top:30px;display:block;content:"";
 }
 
 #gallery:before{
@@ -381,12 +381,16 @@ header.py-3{
     font-style: italic!important;
 }
 
+#reasons, #reasons > div{
+    padding-top: 1.25rem!important;
+    padding-bottom: 0!important;
+}
 .feature{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #2c4444;
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    color: #2c4444!important;
+    height: 190px!important;
     
 }
 
@@ -433,4 +437,20 @@ header.py-3{
 
 .pt-h{
     padding-top: 164px!important;
+}
+
+.services-all{
+    list-style: none;
+}
+
+.services-all li{
+    line-height: 2rem!important;
+}
+.services-all li::before{
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #2c4444; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */ 
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
