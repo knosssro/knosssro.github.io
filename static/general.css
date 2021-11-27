@@ -410,16 +410,6 @@ header.py-3{
     height: 92vh;
 }
 
-.services-to-offer > div > p{
-    min-height: 85px;
-    font-size: 1.2rem;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem;
-}
-
 .services-button{
     width: 200px!important;
 }
