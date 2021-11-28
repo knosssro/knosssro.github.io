@@ -444,3 +444,27 @@ header.py-3{
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
+
+
+.modal-body-cookies-consent{
+    padding: 1rem!important;
+    text-align: justify!important;
+}
+.cookies-consent{
+    font-size: 0.7rem!important;
+    color:#7b838a!important;
+}
+
+.cookies-consent a{
+    font-weight: 600!important;
+    text-decoration: none!important;
+}
+
+.cookie-consent-title{
+    font-size:2rem!important;
+}
+
+.cookie-section{
+    padding-top:0.5rem!important;
+    font-size:1.5rem!important;
+}
