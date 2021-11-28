@@ -47,15 +47,15 @@
   <!-- Navbar -->
   <div class="container-fluid smart-scroll header-container scrolled-up">
     <header class="d-flex flex-wrap justify-content-center mxh-4 py-3 px-5">
-      <a href="#home" class="d-flex col-4 me-md-auto text-dark text-decoration-none">
+      <a href="#home" id="logo-menu-button" class="d-flex col-4 me-md-auto text-dark text-decoration-none">
         <img src="static/images/logo_navbar.png" alt="Logo firmy Knoss" class="bi me-2" width="104" height="104">
       </a>
   
       <ul class="col-8 col-xl-6 nav nav-pills align-items-center justify-content-end">
-        <li class="col-6 col-lg-2 col-md-3 nav-item text-center"><a href="#about" class="nav-link link-hover text-white">O nás</a></li>
-        <li class="col-6 col-lg-2 col-md-3 nav-item text-center"><a href="#services" class="nav-link link-hover text-white">Služby</a></li>
-        <li class="col-6 col-lg-3 col-md-3 nav-item text-center"><a href="#gallery" class="nav-link link-hover text-white">Realizácie</a></li>
-        <li class="col-6 col-lg-2 col-md-3 nav-item text-center"><a href="#contact" class="nav-link link-hover text-white">Kontakt</a></li>
+        <li class="col-6 col-lg-2 col-md-3 nav-item text-center"><a href="#about" id="o-nas-menu-button" class="nav-link link-hover text-white">O nás</a></li>
+        <li class="col-6 col-lg-2 col-md-3 nav-item text-center"><a href="#services" id="sluzby-menu-button" class="nav-link link-hover text-white">Služby</a></li>
+        <li class="col-6 col-lg-3 col-md-3 nav-item text-center"><a href="#gallery" id="referencie-menu-button" class="nav-link link-hover text-white">Realizácie</a></li>
+        <li class="col-6 col-lg-2 col-md-3 nav-item text-center"><a href="#contact" id="kontakt-menu-button" class="nav-link link-hover text-white">Kontakt</a></li>
       </ul>
     </header>
   </div>
@@ -65,7 +65,7 @@
     <div class="col-lg-6 col-sm-12 pxh-5 pt-5 h-88 d-flex align-items-end">
     <div class="text-white m-leading-wrapper">
       <h1 class="display-1 pb-3 pt-2 fw-bold text-shadow main-leading">Stavebná firma s&nbsp;pevnými základmi</h1>
-        <a href="#services" class="btn btn-lg fw-bold knoss-bg-dark text-white mt-3 d-flex flex-row services-button justify-content-center align-items-center">
+        <a href="#services" id="nase-sluzby-button" class="btn btn-lg fw-bold knoss-bg-dark text-white mt-3 d-flex flex-row services-button justify-content-center align-items-center">
           <p>Naše služby</p>
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
@@ -143,7 +143,7 @@
         </div>
       </div>
       <div class="col-xxl-12">
-        <p class="lead mb-5 text-justify text-muted text-center">Pre viac informácií o našich službách nás neváhajte <a href="#contact" class="fw-bold no-decoration knoss-dark">kontaktovať</a>.</p>
+        <p class="lead mb-5 text-justify text-muted text-center">Pre viac informácií o našich službách nás neváhajte <a href="#contact" id="kontaktovat-sluzby-button" class="fw-bold no-decoration knoss-dark">kontaktovať</a>.</p>
       </div>
     </div>
 
@@ -156,7 +156,7 @@
       <!-- 01 -->
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div class="col">
-          <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i03" aria-label="Budova domu smutku">
+          <button type="button" id="budova-domu-smutku-button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i03" aria-label="Budova domu smutku">
           <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/03.webp');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
@@ -179,7 +179,7 @@
 
         <!-- 02 -->
         <div class="col">
-          <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i08" aria-label="Kompletná realizácia rodinného bungalovu">
+          <button type="button" id="bungalov-button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i08" aria-label="Kompletná realizácia rodinného bungalovu">
           <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/08.webp');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
@@ -202,7 +202,7 @@
 
       <!-- 03 -->
         <div class="col">
-          <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i14" aria-label="Realizácia rodinného domu (bez fasády)">
+          <button type="button" id="dom-bez-fasady-button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i14" aria-label="Realizácia rodinného domu (bez fasády)">
           <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/14.webp');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
@@ -225,7 +225,7 @@
 
         <!-- 04 -->
         <div class="col">
-          <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i15" aria-label="Zrekonštruovaný dom smůtku v Plaveckom Petri">
+          <button type="button" id="dom-smutku-pp-button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i15" aria-label="Zrekonštruovaný dom smůtku v Plaveckom Petri">
           <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/15.webp');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
@@ -248,7 +248,7 @@
       
         <!-- 05 -->
         <div class="col">
-          <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i04" aria-label="Novostavba bytového domu">
+          <button type="button" id="bytovka-button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i04" aria-label="Novostavba bytového domu">
           <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/04.webp');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
@@ -271,7 +271,7 @@
       
         <!-- 06 -->
         <div class="col">
-          <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i12" aria-label="Okrový dom s hnedou strechou">
+          <button type="button" id="okrovy-dom-button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i12" aria-label="Okrový dom s hnedou strechou">
           <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/12.webp');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
@@ -294,7 +294,7 @@
 
         <!-- 07 -->
         <div class="col">
-          <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i07" aria-label="Budova hasičskej zbrojnice v Plaveckom Mikuláši">
+          <button type="button" id="hasicska-zbrojnica-button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i07" aria-label="Budova hasičskej zbrojnice v Plaveckom Mikuláši">
           <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/07.webp');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
@@ -317,7 +317,7 @@
 
         <!-- 08 -->
         <div class="col">
-          <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i13" aria-label="Budova obecného úradu v Plaveckom Petri">
+          <button type="button" id="obecny-urad-button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i13" aria-label="Budova obecného úradu v Plaveckom Petri">
           <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/13.webp');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
@@ -340,7 +340,7 @@
 
         <!-- 09 -->
         <div class="col">
-          <button type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i05" aria-label="Plastové dvere s imitáciou dreva">
+          <button type="button" id="dvere-button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#i05" aria-label="Plastové dvere s imitáciou dreva">
           <div class="card card-cover h-100 overflow-hidden text-white rounded-1 shadow-lg py-3" style="background-image: url('static/photos/05.webp');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start"></h2>
@@ -386,23 +386,23 @@
     </div>
     </div>
 
-      <!-- References -->
+      <!-- Partners -->
       <div class="container col-xxl-12 px-4 border-bottom pt-5" id="cooperation">
         <h2 class="display-5 fw-bold text-center">Naši partneri</h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 py-4 align-items-center justify-content-center">
-          <a class="col d-flex align-items-start cooperation-logo justify-content-center" href="https://www.moderna.sk">
+          <a class="col d-flex align-items-start cooperation-logo justify-content-center" id="moderna-button" href="https://www.moderna.sk">
             <img src="static/logos/moderna_blue.svg" alt="Logo firmy Moderna" class="bi me-2" width="140">
           </a>
-          <a class="col d-flex align-items-start cooperation-logo justify-content-center" href="https://www.noves.sk">
+          <a class="col d-flex align-items-start cooperation-logo justify-content-center" id="noves-button" href="https://www.noves.sk">
             <img src="static/logos/noves.jpg" alt="Logo firmy Noves" class="bi me-2" width="140">
           </a>
-          <a class="col d-flex align-items-start cooperation-logo justify-content-center" href="https://www.stavmat.sk">
+          <a class="col d-flex align-items-start cooperation-logo justify-content-center" id="stavmat-button" href="https://www.stavmat.sk">
             <img src="static/logos/stavmat_2.png" alt="Logo firmy Stavmat" class="bi me-2" width="140">
           </a>
-          <a class="col d-flex align-items-start cooperation-logo justify-content-center" href="https://webserver.vasagroup.sk">
+          <a class="col d-flex align-items-start cooperation-logo justify-content-center" id="vasagroup-button" href="https://webserver.vasagroup.sk">
             <img src="static/logos/vasa.png" alt="Logo firmy Vaša" class="bi me-2" width="140">
           </a>
-          <a class="col d-flex align-items-start cooperation-logo justify-content-center" href="https://www.venys.sk">
+          <a class="col d-flex align-items-start cooperation-logo justify-content-center" id="venys-button" href="https://www.venys.sk">
             <img src="static/logos/venys.jpg" alt="Logo firmy Venys" class="bi me-2" width="140">
           </a>
         </div>
@@ -419,7 +419,7 @@
           <div class="contact-box rounded-5 p-3">
           <h3 class="mb-4"><p class="text-muted">Ladislav Klíma</p></h3>
           <div class="contact-row">
-              <h4 class="mb-2"><a href="mailto:knosssro@gmail.com" class="d-flex align-items-center no-decoration py-1">
+              <h4 class="mb-2"><a href="mailto:knosssro@gmail.com" id="lk-mail-button" class="d-flex align-items-center no-decoration py-1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope text-muted" viewBox="0 0 16 16">
                   <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path>
                 </svg>
@@ -427,7 +427,7 @@
               </a></h4>
           </div>
           <div class="contact-row">
-              <h4 class="mb-2"><a href="tel:+421 905 525 096" class="d-flex align-items-center no-decoration py-1 tr-2">
+              <h4 class="mb-2"><a href="tel:+421 905 525 096" id="lk-mobile-button" class="d-flex align-items-center no-decoration py-1 tr-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"fill="currentColor" class="bi bi-phone text-muted" viewBox="0 0 16 16">
                   <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"></path>
                   <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
@@ -441,7 +441,7 @@
         <div class="contact-box rounded-5 p-3">
         <h3 class="mb-4"><p class="text-muted">Anton Nemec</p></h3>
         <div class="contact-row">
-            <h4 class="mb-2"><a href="mailto:knosstav@azet.sk" class="d-flex align-items-center no-decoration py-1">
+            <h4 class="mb-2"><a href="mailto:knosstav@azet.sk" id="an-mail-button" class="d-flex align-items-center no-decoration py-1">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope text-muted" viewBox="0 0 16 16">
                 <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path>
               </svg>
@@ -449,7 +449,7 @@
             </a></h4>
         </div>
         <div class="contact-row">
-            <h4 class="mb-2"><a href="tel:+421 905 458 837" class="d-flex align-items-center no-decoration py-1">
+            <h4 class="mb-2"><a href="tel:+421 905 458 837" id="an-mobile-button" class="d-flex align-items-center no-decoration py-1">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"fill="currentColor" class="bi bi-phone text-muted" viewBox="0 0 16 16">
                 <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"></path>
                 <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
@@ -473,21 +473,21 @@
 
     <!-- Footer -->
     <footer class="container d-flex flex-wrap justify-content-center align-items-center col-xxl-12 px-4 pt-3 my-4 border-top">
-      <p class="col-12 col-md-4 mb-0 text-muted">© 2021 Knoss s.r.o. | <a class="light-gray no-decoration" href="https://www.linkedin.com/in/michael-sláma-a195641a0/">Michael Sláma</a> </p>
+      <p class="col-12 col-md-4 mb-0 text-muted">© 2021 Knoss s.r.o. | <a class="light-gray no-decoration" id="author-button" href="https://www.linkedin.com/in/michael-sláma-a195641a0/">Michael Sláma</a> </p>
   
       <a href="/" class="col-12 col-md-4 d-flex align-items-center justify-content-center mb-md-0 me-md-auto link-dark text-decoration-none">
-        <img src="static/images/logo_footer.webp" alt="Logo firmy Knoss" class="bi mx-4 mt-4" width="64" height="64">
+        <img src="static/images/logo_footer.webp" id="footer-logo-button" alt="Logo firmy Knoss" class="bi mx-4 mt-4" width="64" height="64">
       </a>
   
       <ul class="nav col-12 col-md-4">
-        <li class="nav-item"><a href="#about" class="nav-link link-hover px-2 text-muted">O nás</a></li>
-        <li class="nav-item"><a href="#services" class="nav-link link-hover px-2 text-muted">Služby</a></li>
-        <li class="nav-item"><a href="#gallery" class="nav-link link-hover px-2 text-muted">Realizácie</a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link link-hover px-2 text-muted">Kontakt</a></li>
+        <li class="nav-item"><a href="#about" id="o-nas-footer-button" class="nav-link link-hover px-2 text-muted">O nás</a></li>
+        <li class="nav-item"><a href="#services" id="sluzby-footer-button" class="nav-link link-hover px-2 text-muted">Služby</a></li>
+        <li class="nav-item"><a href="#gallery" id="referencie-footer-button" class="nav-link link-hover px-2 text-muted">Realizácie</a></li>
+        <li class="nav-item"><a href="#contact" id="kontakt-footer-button" class="nav-link link-hover px-2 text-muted">Kontakt</a></li>
       </ul>
       <div class="col-12 text-center py-3 cookies-consent">
         Tento web používa súbory cookies. Prehliadaním webu vyjadrujete súhlas s ich používaním. 
-        <a class="knoss-dark" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Viac informácií</a>.
+        <a class="knoss-dark" id="cookie-button" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Viac informácií</a>.
       </div>
       
       <!-- Cookies terms -->
